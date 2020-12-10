@@ -1,9 +1,7 @@
 ## next-p32929
-A simple boilerplate for NextJS ( Express, Mongoose etc )
+A simple boilerplate for NextJS + Overmind + MaterialUI
 
-Took some inspirations from here: https://github.com/p32929/NodeJS_Express_MongoDB_OAuth2_Boilerplate
-
-[![](https://badgen.net/github/release/p32929/next-p32929)]() [![](https://badgen.net/github/release/p32929/next-p32929/stable)]() [![](https://badgen.net/github/tag/p32929/next-p32929)]() [![](https://badgen.net/github/watchers/p32929/next-p32929)]() [![](https://badgen.net/github/checks/p32929/next-p32929)]() [![](https://badgen.net/github/status/p32929/next-p32929)]() [![](https://badgen.net/github/stars/p32929/next-p32929)]() [![](https://badgen.net/github/forks/p32929/next-p32929)]() [![](https://badgen.net/github/issues/p32929/next-p32929)]() [![](https://badgen.net/github/open-issues/p32929/next-p32929)]() [![](https://badgen.net/github/closed-issues/p32929/next-p32929)]() [![](https://badgen.net/github/label-issues/p32929/next-p32929/help-wanted/open)]() [![](https://badgen.net/github/prs/p32929/next-p32929)]() [![](https://badgen.net/github/open-prs/p32929/next-p32929)]() [![](https://badgen.net/github/closed-prs/p32929/next-p32929)]() [![](https://badgen.net/github/merged-prs/p32929/next-p32929)]() [![](https://badgen.net/github/commits/p32929/next-p32929)]() [![](https://badgen.net/github/last-commit/p32929/next-p32929)]() [![](https://badgen.net/github/branches/p32929/next-p32929)]() [![](https://badgen.net/github/releases/p32929/next-p32929)]() [![](https://badgen.net/github/tags/p32929/next-p32929)]() [![](https://badgen.net/github/license/p32929/next-p32929)]() [![](https://badgen.net/github/contributors/p32929/next-p32929)]() [![](https://badgen.net/github/dependents-pkg/p32929/next-p32929)]() 
+[![](https://badgen.net/github/release/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/release/p32929/NextjsOvermindBoilerplate/stable)]() [![](https://badgen.net/github/tag/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/watchers/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/checks/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/status/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/stars/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/forks/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/issues/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/open-issues/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/closed-issues/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/label-issues/p32929/NextjsOvermindBoilerplate/help-wanted/open)]() [![](https://badgen.net/github/prs/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/open-prs/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/closed-prs/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/merged-prs/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/commits/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/last-commit/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/branches/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/releases/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/tags/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/license/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/contributors/p32929/NextjsOvermindBoilerplate)]() [![](https://badgen.net/github/dependents-pkg/p32929/NextjsOvermindBoilerplate)]() 
 
 ## Share
 Sharing with your friends is just one click away from here
@@ -19,17 +17,6 @@ Sharing with your friends is just one click away from here
 
 ## Support
 If you like my works and want to support me/my works, feel free to support or donate. My payment details can be found here: https://p32929.github.io/SendMoney2Me/
-
-## What's in it
-1. NextJS
-2. ReactJS (duh!)
-3. Overmind
-4. Material-UI
-5. Express
-6. Some middlewares
-7. NodeFetchHelper
-8. OAuth2
-9. etc
 
 ## How to use
 1. fork
