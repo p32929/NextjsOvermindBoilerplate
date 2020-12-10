@@ -32,35 +32,6 @@ const Index = (props) => {
             }} variant='contained' color='primary' onClick={() => {
                 actions.increase(-1)
             }}>-</Button>
-
-            <Typography style={{marginTop: 32}} variant='h3'>Status code from server: {state.serverStatus}</Typography>
-            <Button variant='contained' color='primary' onClick={() => {
-                GlobalMethods.createRandomUser((status, jsonData) => {
-                    actions.setServerStatus(status)
-                    if (status > 0 && status <= 400) {
-                        GlobalMethods.getAllUsers((status, jsonData) => {
-                            actions.setUsers(jsonData)
-                        })
-                    }
-                })
-            }}>Create random user</Button>
-
-            <Grid style={{marginTop: 16}} container direction='row' alignContent='center' alignItems='center'
-                  justify='center'>
-
-                {
-                    // JSON.stringify(state.users)
-
-                    state?.users?.map((item, index) => {
-                        return <Link
-                            href={`/user?id=${item._id}`}>
-                            <Button style={{margin: 8}} color='primary' variant='contained' item={item}
-                                    key={index}>{item.name}</Button>
-                        </Link>
-                    })
-                }
-            </Grid>
-
         </Grid>
     );
 }
