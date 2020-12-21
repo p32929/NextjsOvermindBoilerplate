@@ -1,11 +1,8 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import {theme} from '../src/Utils/Theme';
 import {useOvermind} from '../src/Utils/OvermindHelper'
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
-import {GlobalMethods} from "../src/Utils/GlobalMethods";
-import Link from 'next/link'
 import {NextSeo} from "next-seo";
 
 const Index = (props) => {
