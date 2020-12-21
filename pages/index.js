@@ -1,10 +1,10 @@
 import React from 'react';
 import Grid from "@material-ui/core/Grid";
-import {theme} from '../src/Others/Theme';
-import {useOvermind} from '../src/Others/OvermindHelper'
+import {theme} from '../src/Utils/Theme';
+import {useOvermind} from '../src/Utils/OvermindHelper'
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
-import {GlobalMethods} from "../src/Others/GlobalMethods";
+import {GlobalMethods} from "../src/Utils/GlobalMethods";
 import Link from 'next/link'
 import {NextSeo} from "next-seo";
 

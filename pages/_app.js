@@ -4,8 +4,8 @@ import Head from 'next/head';
 import {ThemeProvider} from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import {Provider} from "overmind-react";
-import {theme} from '../src/Others/Theme';
-import {overmind} from '../src/Others/OvermindHelper'
+import {theme} from '../src/Utils/Theme';
+import {overmind} from '../src/Utils/OvermindHelper'
 import {NextSeo} from "next-seo";
 
 React.useLayoutEffect = React.useEffect;

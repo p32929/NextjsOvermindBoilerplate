@@ -91,4 +91,33 @@ export class NodeFetchHelper {
                 callback(status, jsonData)
             });
     }
+
+    static upload = (url, params, file, callback) => {
+        if (params) {
+            params = new URLSearchParams(params);
+            url = url + "?" + params
+        }
+
+        var formData = new FormData()
+        formData.append('type', 'file')
+        formData.append('image', file)
+
+        fetch(url, {
+            method: POST,
+            headers: {
+                Accept: 'application/json',
+            },
+            body: formData
+        }).then(res => Promise.all([res.status, res.json()]))
+            .then(([status, jsonData]) => {
+                console.log(jsonData);
+                console.log(status);
+                callback(status, jsonData)
+            })
+            .catch((e) => {
+                callback(500, {
+                    error: e
+                })
+            })
+    }
 }

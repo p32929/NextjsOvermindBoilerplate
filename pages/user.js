@@ -1,9 +1,9 @@
 import React, {useEffect} from 'react';
 import Grid from "@material-ui/core/Grid";
-import {theme} from '../src/Others/Theme';
-import {useOvermind} from '../src/Others/OvermindHelper'
+import {theme} from '../src/Utils/Theme';
+import {useOvermind} from '../src/Utils/OvermindHelper'
 import {withRouter} from 'next/router'
-import {GlobalMethods} from "../src/Others/GlobalMethods";
+import {GlobalMethods} from "../src/Utils/GlobalMethods";
 import {NextSeo} from 'next-seo';
 import Router from "next/router";
 
