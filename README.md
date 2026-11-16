@@ -1,14 +1,16 @@
 # NextjsOvermindBoilerplate
 
-A simple Next.js starter with Overmind and Material-UI, in plain JavaScript — the small utils I reach for on every project, already in place.
+A Next.js starter in plain JavaScript with [Overmind](https://overmindjs.org) for state and Material-UI for the look. Instead of setting up the same theme, state, SEO tags and fetch helper on every new project, you start with them already wired together.
+
+> Built in 2020 with Next.js 10 and Material-UI 4. It is kept as a starting point and is not updated to the latest versions.
 
 ## What's included
 
-- **Next.js** with Material-UI and a shared theme file
-- **Overmind** state, provided in `_app`
-- **next-seo** for per-page meta tags
-- **A fetch helper** (`NodeFetchHelper`) so API calls aren't boilerplate either
-- **SSR-safe `_document`** that injects MUI's server-side styles
+1. **Next.js** with Material-UI and a shared theme file
+2. **Overmind** state, provided in `_app`
+3. **next-seo** for per-page meta tags
+4. **A fetch helper** (`NodeFetchHelper`) so API calls aren't boilerplate either
+5. **SSR-safe `_document`** that injects MUI's server-side styles
 
 ## Project layout
 
@@ -37,31 +39,21 @@ Want TypeScript? Use [nextjs-typescript-materialui-overmind-boilerplate](https:/
 
 ## Related boilerplates
 
-- [nextjs-typescript-materialui-overmind-boilerplate](https://github.com/p32929/nextjs-typescript-materialui-overmind-boilerplate) — the TypeScript version of this
-- [MyReactBoilerplate](https://github.com/p32929/MyReactBoilerplate) — the same stack without Next.js
+1. [nextjs-typescript-materialui-overmind-boilerplate](https://github.com/p32929/nextjs-typescript-materialui-overmind-boilerplate): the TypeScript version of this
+2. [MyReactBoilerplate](https://github.com/p32929/MyReactBoilerplate): the same stack without Next.js
+
+## License
+
+MIT License. See [LICENSE](LICENSE) for the full text.
 
 ## Contributing
 
-Contributions are warmly welcomed and greatly appreciated! Whether it's a bug fix, new feature, or improvement, your input helps make this project better for everyone.
-
-Before submitting a pull request, please:
-
-1. Create an issue describing the feature or bug fix you'd like to work on
-2. Wait for discussion and approval to ensure alignment with project goals
-3. Fork the repository and create your feature branch
-4. Submit your pull request with a clear description of changes
-
-This approach helps avoid duplicate efforts and ensures smooth collaboration. Thank you for considering contributing!
+Contributions are very welcome, thank you! Before you start on a pull request, please open an issue and tell me what you would like to add or change. That way we can agree on it first, and your time is not wasted on something that might not fit. Thanks for helping make this boilerplate better.
 
 ## Share
 
-Sharing this repository with your friends is just one click away from here
+<a href="https://p32929.github.io/share/?repo=NextjsOvermindBoilerplate"><img src="https://p32929.github.io/readme/share.svg" alt="Share this with your friends in just a click" width="420"></a>
 
-[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/NextjsOvermindBoilerplate/)
-[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/NextjsOvermindBoilerplate/)
-[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/NextjsOvermindBoilerplate/)
-[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/NextjsOvermindBoilerplate/)
-[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/NextjsOvermindBoilerplate/)
-[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/NextjsOvermindBoilerplate/)
-[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/NextjsOvermindBoilerplate/)
-[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/NextjsOvermindBoilerplate/)
+## Support
+
+<a href="https://p32929.github.io/support/"><img src="https://p32929.github.io/readme/support.svg" alt="If you like my works and want to support me, feel free to support" width="420"></a>
